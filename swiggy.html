@@ -8,7 +8,6 @@
     <title>swiggy.com</title>
     <style>
         .nav {
-            border: 2px solid black;
             display: flex;
         }
 
@@ -23,6 +22,7 @@
             height: 45px;
             margin-left: 44rem;
         }
+
         #sec1 {
             background-color: rgb(1, 1, 17);
             border: 2px solid black;
@@ -32,13 +32,46 @@
             column-gap: 35px;
             justify-content: center;
         }
-        #sec2{
+
+        #sec2 {
             display: flex;
         }
-        #p1{
+
+        #p1 {
             margin-top: 40px;
-            margin-left:55rem;
+            margin-left: 55rem;
         }
+
+        .resturant {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 20px;
+            column-gap: -40px;
+            /* border: 2px solid black; */
+            width: 70rem;
+            margin-left: 25rem;
+
+        }
+
+        .res {
+            /* border: 2px solid black; */
+            width: 15rem;
+            height: 15rem;
+            border-spacing: 20px;
+        }
+      #p0{
+          
+          margin-left: 15rem;
+          
+      }
+      .btn{
+          width:6rem;
+        
+      }
+      #btns{
+        column-gap: 30px;
+        margin-left: 15rem;
+      }
     </style>
 </head>
 
@@ -47,19 +80,59 @@
         <img id="logo" src="images/Swiggy-logo.jpg" alt="logo">
         <img id="search" src="images/search.png" alt="search">
         <div id="s">Search</div>
+        <div id="btns">
+        <button class="btn">offers</button>
+        <button class="btn">help</button>
+        <button class="btn">sign in</button>
+        <button class="btn">cart</button>
+    </div>
     </nav>
     <div id="sec1">
-        <div><img id="c1" src="images/card1.jpg" alt="card1" height="250rem" width="250rem"></div>
+        <div><img src="images/card1.jpg" alt="card1" height="250rem" width="250rem"></div>
         <div><img src="images/card2.jpg" alt="card2" height="250rem" width="250rem"></div>
         <div><img src="images/card3.jpg" alt="card3" height="250rem" width="250rem"></div>
         <div><img src="images/card4.jpg" alt="card4" height="250rem" width="250rem"></div>
     </div>
     <div id="sec2">
-        <h1>276 Resturants</h1>
-        <p id="p1">Relevance &nbsp &nbsp  Delivery Time &nbsp &nbsp  Rating &nbsp &nbsp  Cost: Low To High &nbsp &nbsp  Cost: High To Low
+        <p id="p0"><h1 >
+      276 Resturants</h1></p>
+        <p id="p1">Relevance &nbsp &nbsp Delivery Time &nbsp &nbsp Rating &nbsp &nbsp Cost: Low To High &nbsp &nbsp
+            Cost: High To Low
         </p>
     </div>
     <hr>
+    <div class="resturant">
+        <div class="res"><img src="images/annpurna.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res1</h4>
+        </div>
+        <div class="res"><img src="images/res1.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res2</h4>
+        </div>
+        <div class="res"><img src="images/restaurant2.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res3</h4>
+        </div>
+        <div class="res"><img src="images/restaurant3.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res4</h4>
+        </div>
+        <div class="res"><img src="images/restaurant4.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res5</h4>
+        </div>
+        <div class="res"><img src="images/restaurant5.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res6</h4>
+        </div>
+        <div class="res"><img src="images/restaurant6.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res7</h4>
+        </div>
+        <div class="res"><img src="images/restaurant7.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res8</h4>
+        </div>
+        <div class="res"><img src="images/restaurant8.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res9</h4>
+        </div>
+        <div class="res"><img src="images/restaurant9.jpeg" alt="card1" height="200rem" width="200rem">
+            <h4>Res10</h4>
+        </div>
+    </div>
 </body>
 
 </html>
